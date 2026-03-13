@@ -1,0 +1,207 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+url("https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e");
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+color:white;
+line-height:1.6;
+}
+
+/* NAVBAR */
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 10%;
+background:#000;
+position:sticky;
+top:0;
+z-index:100;
+}
+
+.logo{
+font-size:28px;
+font-weight:800;
+}
+
+.logo span{
+color:#ff4d4d;
+}
+
+.nav-links{
+list-style:none;
+display:flex;
+gap:30px;
+}
+
+.nav-links a{
+text-decoration:none;
+color:white;
+font-weight:500;
+transition:0.3s;
+}
+
+.nav-links a:hover{
+color:#ff4d4d;
+}
+
+/* BUTTON */
+
+.btn{
+background:#ff4d4d;
+color:white;
+padding:10px 22px;
+text-decoration:none;
+border-radius:5px;
+font-weight:600;
+transition:0.3s;
+}
+
+.btn:hover{
+background:#ff1a1a;
+}
+
+/* HERO SECTION */
+
+.hero{
+height:90vh;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.8)),
+url("https://images.unsplash.com/photo-1558611848-73f7eb4001ab");
+background-size:cover;
+background-position:center;
+}
+
+.hero h1{
+font-size:60px;
+font-weight:800;
+margin-bottom:20px;
+}
+
+.hero h1 span{
+color:#ff4d4d;
+}
+
+.hero p{
+margin-bottom:25px;
+font-size:18px;
+}
+
+/* PROGRAM SECTION */
+
+.programs{
+padding:80px 10%;
+text-align:center;
+}
+
+.programs h2{
+font-size:40px;
+margin-bottom:40px;
+}
+
+.card-container{
+display:flex;
+justify-content:center;
+gap:30px;
+flex-wrap:wrap;
+}
+
+.card{
+background:#1c1c1c;
+padding:30px;
+width:250px;
+border-radius:10px;
+text-decoration:none;
+color:white;
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+background:#ff4d4d;
+}
+
+/* PRICING */
+
+.pricing{
+padding:80px 10%;
+text-align:center;
+}
+
+.pricing h2{
+font-size:40px;
+margin-bottom:40px;
+}
+
+.price-card{
+background:#1c1c1c;
+padding:30px;
+width:260px;
+border-radius:10px;
+}
+
+.price{
+font-size:28px;
+font-weight:700;
+margin:15px 0;
+}
+
+.featured{
+transform:scale(1.05);
+}
+
+/* CONTACT */
+
+.contact{
+padding:80px 10%;
+text-align:center;
+}
+
+.contact form{
+max-width:400px;
+margin:auto;
+display:flex;
+flex-direction:column;
+gap:15px;
+}
+
+.contact input,
+.contact textarea{
+padding:12px;
+border:none;
+border-radius:5px;
+outline:none;
+}
+
+textarea{
+height:120px;
+resize:none;
+}
+
+.success-message{
+display:none;
+margin-top:20px;
+color:lightgreen;
+font-weight:600;
+}
+
+/* FOOTER */
+
+footer{
+text-align:center;
+padding:20px;
+background:#000;
+margin-top:40px;
+}
