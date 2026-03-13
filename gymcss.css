@@ -205,3 +205,67 @@ padding:20px;
 background:#000;
 margin-top:40px;
 }
+
+
+/* ================= MOBILE RESPONSIVE ================= */
+
+@media (max-width:768px){
+
+/* NAVBAR */
+
+.navbar{
+flex-direction:column;
+gap:15px;
+padding:15px;
+}
+
+.nav-links{
+flex-direction:column;
+gap:15px;
+text-align:center;
+}
+
+/* HERO */
+
+.hero{
+height:80vh;
+padding:20px;
+}
+
+.hero h1{
+font-size:36px;
+}
+
+.hero p{
+font-size:16px;
+}
+
+/* PROGRAM CARDS */
+
+.card-container{
+flex-direction:column;
+align-items:center;
+}
+
+.card{
+width:90%;
+}
+
+/* PRICING */
+
+.price-card{
+width:90%;
+margin-bottom:20px;
+}
+
+.featured{
+transform:scale(1);
+}
+
+/* CONTACT */
+
+.contact form{
+width:90%;
+}
+
+}
